@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ZWViewController.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self presentViewController:[ZWViewController new] animated:YES completion:nil];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
