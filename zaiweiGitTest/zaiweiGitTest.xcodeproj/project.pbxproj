@@ -16,6 +16,7 @@
 		6225CB7B1C87E53100CD0416 /* zaiweiGitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6225CB7A1C87E53100CD0416 /* zaiweiGitTestTests.m */; };
 		6225CB861C87E53100CD0416 /* zaiweiGitTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6225CB851C87E53100CD0416 /* zaiweiGitTestUITests.m */; };
 		6225CB951C87F39F00CD0416 /* ZWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6225CB941C87F39F00CD0416 /* ZWViewController.m */; };
+		6225CB981C88053100CD0416 /* DevVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6225CB971C88053100CD0416 /* DevVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		6225CB871C87E53100CD0416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6225CB931C87F39F00CD0416 /* ZWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWViewController.h; sourceTree = "<group>"; };
 		6225CB941C87F39F00CD0416 /* ZWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWViewController.m; sourceTree = "<group>"; };
+		6225CB961C88053100CD0416 /* DevVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DevVC.h; sourceTree = "<group>"; };
+		6225CB971C88053100CD0416 /* DevVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DevVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 				6225CB641C87E53000CD0416 /* AppDelegate.m */,
 				6225CB661C87E53000CD0416 /* ViewController.h */,
 				6225CB671C87E53000CD0416 /* ViewController.m */,
+				6225CB961C88053100CD0416 /* DevVC.h */,
+				6225CB971C88053100CD0416 /* DevVC.m */,
 				6225CB691C87E53000CD0416 /* Main.storyboard */,
 				6225CB931C87F39F00CD0416 /* ZWViewController.h */,
 				6225CB941C87F39F00CD0416 /* ZWViewController.m */,
@@ -276,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6225CB681C87E53000CD0416 /* ViewController.m in Sources */,
+				6225CB981C88053100CD0416 /* DevVC.m in Sources */,
 				6225CB951C87F39F00CD0416 /* ZWViewController.m in Sources */,
 				6225CB651C87E53000CD0416 /* AppDelegate.m in Sources */,
 				6225CB621C87E53000CD0416 /* main.m in Sources */,
@@ -504,6 +510,7 @@
 				6225CB8C1C87E53100CD0416 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6225CB8D1C87E53100CD0416 /* Build configuration list for PBXNativeTarget "zaiweiGitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +519,7 @@
 				6225CB8F1C87E53100CD0416 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6225CB901C87E53100CD0416 /* Build configuration list for PBXNativeTarget "zaiweiGitTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +528,7 @@
 				6225CB921C87E53100CD0416 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
